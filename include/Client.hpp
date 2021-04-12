@@ -14,8 +14,8 @@ namespace http = beast::http;       // from <boost/beast/http.hpp>
 namespace net = boost::asio;        // from <boost/asio.hpp>
 using tcp = net::ip::tcp;           // from <boost/asio/ip/tcp.hpp>
 
-#ifndef TEMPLATE_CLIENT_HPP
-#define TEMPLATE_CLIENT_HPP
+#ifndef INCLUDE_CLIENT_HPP_
+#define INCLUDE_CLIENT_HPP_
 
 class Client
 {
@@ -28,4 +28,4 @@ class Client
   std::string _port;
 };
 
-#endif  // TEMPLATE_CLIENT_HPP
+#endif  // INCLUDE_CLIENT_HPP_
